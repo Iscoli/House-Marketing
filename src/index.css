@@ -25,6 +25,7 @@ button {
   border: none;
 }
 
+
 .input,
 .passwordInput,
 .emailInput,
@@ -67,6 +68,7 @@ button {
   font-size: 1.25rem;
   width: 80%;
   margin: 0 auto;
+  margin-bottom:100px;
   display: flex;
   align-items: center;
   justify-content: center;
