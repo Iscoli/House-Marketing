@@ -49,9 +49,11 @@
 
            navigate('/')
           }catch(error){
-            toast.error('something went  wrong with registration')
+            toast.error('something went  wrong with registration' 
+                          )
           }
         }
+        
 
       return(
         <>
@@ -82,7 +84,7 @@
                 onChange={onChange}/>
 
 
-
+               
 
                 <div className='passwordInputDiv'>
                 <input 
@@ -90,6 +92,8 @@
                 className='passwordInput'
                  id='password'
                  value={password}
+                 minLength='6'
+                 required
                  onChange={onChange}/>
 
 
